@@ -40,7 +40,7 @@
 
 - Icebreaker (Ako sa volate, co robite, preco ste tu?) (15min)
 - Prehlad znalosti o webe (5min)
-- [Kniha](HTML-CSS-handbook.pdf)
+- [Kniha](html-css-handbook.pdf)
 - Intro do tvorby webu (30min)
     - webovy prehliadac
     - textovy editor
