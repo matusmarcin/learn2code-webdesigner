@@ -1,0 +1,42 @@
+/*
+Format je:
+
+selektor {
+    vlastnost: hodnota;  // pravidlo
+}
+*/
+strong {
+    color: red;
+    background-color: black;
+}
+
+em {
+    color: green;
+}
+
+/** DOMACA ULOHA **/
+/*
+    Bud rozsirte kon.html o viac tagov,
+    alebo pripojte tento CSS subor k struktura.html
+
+    Skuste pouzit tieto selektory:
+        header
+        footer
+        h1
+        p
+        strong
+        a
+        img
+
+    A skuste pouzit tieto vlastnosti:
+        color
+        background-color
+        font-size
+        padding
+        margin
+        width
+        height
+        border (bonusova uloha :)
+
+*/
+
