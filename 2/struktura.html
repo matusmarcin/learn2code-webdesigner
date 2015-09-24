@@ -14,8 +14,33 @@
         <h1>Ahojte!</h1>
         <h2>Matúš Marcin</h2>
         <p>Narodil som sa v Košiciach a tu som aj vyrastal. Až kým som neodišiel do Ameriky. No potom som sa vrátil.</p>
+
+        <dl>
+            <dt>web stránka</dt>
+            <dd>Je súbor na internete, prístupný z celého sveta.</dd>
+
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language. Slúži na tvorbu web stránok.</dd>
+        </dl>
+
         <section>
-            Sem príde fotogaléria.
+            Sem príde fotogaléria.<br />
+
+            <!-- relativna cesta -->
+            <img width="100" src="obrazky/staraskoda.jpg" /><br />
+
+            <img width="100" src="../1/skoda.jpg" /><br />
+
+            <!-- absolutna cesta -->
+            <!-- zla - nepouzivat -->
+            <img src="/Users/matus/Sites/learn2code/1/skoda.jpg" width="100" />
+
+            <!-- oukej - moze byt -->
+            <img src="http://www.matusmarcin.com/img/profile-image.jpg" />
+
+
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/JPJd7E1IrpE" frameborder="0" allowfullscreen></iframe>
+
         </section>
         <br />
         <table border="1">
@@ -55,6 +80,7 @@
             </tfoot>
         </table>
         <br />
+
     </article>
 
     <aside>
@@ -63,6 +89,8 @@
             <a href="http://www.matusmarcin.com">Portfolio</a>
         </nav>
     </aside>
+
+
 
     <footer>
         &copy; Matus Marcin 2015
