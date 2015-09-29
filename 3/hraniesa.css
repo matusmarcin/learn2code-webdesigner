@@ -1,0 +1,23 @@
+/* 1: h1 cervenou */
+h1 {
+	color: #ff0000;
+}
+/* 2: article, aside farba pozadia */
+article {
+	background-color: #ddd;
+}
+aside {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+/* 3: 
+	h2 pod article inou farbou a vacsim pismom
+	h2 pod aside tiez inou farbou	
+*/
+article h2 {
+	color: #ee0000;
+	font-size: 2em;
+}
+
+aside h2 {
+	color: green;
+}

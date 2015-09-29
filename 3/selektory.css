@@ -3,17 +3,25 @@ body {
 }
 
 /* nazov tagu ako selektor */
-p {}
+p { }
 
-section p {} /* kontextovost */
-
+section p { } /* kontextovost */
+		
 /* class ako selector */
-.alt {}
+.alt { }
 
-section .alt {} /* kontextovost */
+section .alt { font-style: italic; } /* kontextovost */
+
+.bold { font-weight: bold; }
+
+
+p.orange,
+p.alt { 
+	color: orange;
+}
 
 /* id ako selector */
-#intro {}
+#intro { }
 
 /** speciality **/
 
@@ -36,14 +44,14 @@ em {}
 strong + em { } /* len em, ktory je hned vedla strong */
 
 /* priama nadradenost */
-section strong { color: blue; }
+section strong { }
 
-section > strong { color: red; } /* len strong, ktory je priamo pod section */
+section > strong { } /* len strong, ktory je priamo pod section */
 
-p > strong { color: green; } /* len strong, ktory je priamo pod p */
+p > strong { } /* len strong, ktory je priamo pod p */
 
 /* atribut */
 
-span[title] { color: yellow; }
+span[title] { }
 
 
