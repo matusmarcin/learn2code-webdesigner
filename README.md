@@ -4,8 +4,8 @@
 #### HTML/CSS
 
 - [1. hodina](#1) &#10004;
-- [2. hodina](#2) **&#8592; tu sme** 
-- [3. hodina](#3)
+- [2. hodina](#2) &#10004;
+- [3. hodina](#3) **&#8592; tu sme** 
 - [4. hodina](#4)
 - [5. hodina](#5)
 - [6. hodina](#6)
@@ -87,6 +87,11 @@ Intro do CSS:
 - Syntax CSS
 - Triedy a IDs
 
+Zadanie/domáca úloha:
+- Rozsirit svoju stranku o tagy HTML5 struktury, hyperlinky a CSS sa pouzitia roznych vlastnosti
+
+### <a name="3">3. hodina</a>
+
 CSS vlastnosti:
 - multitriedy
 - hromadná deklarácia
@@ -94,12 +99,7 @@ CSS vlastnosti:
 - kaskádovosť (prednastavené vlastnosti, dedičnosť, kaskáda)
 - jednotky v css (vela)
 
-Zadanie/domáca úloha:
-- Rozsirit svoju stranku o tagy HTML5 struktury, hyperlinky a CSS sa pouzitia roznych vlastnosti
-
-### <a name="3">3. hodina</a>
-
-Ďalšie experimentovanie s CSS ([materiál](selektory.zip)):
+Ďalšie experimentovanie s CSS ([materiál](3/selektory.zip)):
 - pseudo triedy (:hover, kdekoľvek v pravidle)
 - pseudo elementy (::first-letter, iba na konci v pravidle)
     - [vraj všetky](http://www.w3schools.com/css/css_pseudo_elements.asp)

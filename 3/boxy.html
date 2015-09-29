@@ -1,0 +1,170 @@
+<style>
+.box {
+    background-color: yellow;
+    border: 5px solid green;
+    margin: 10px;
+}
+
+.box-container {
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.w300 {
+    width: 300px;
+}
+.b20 {
+    border-width: 20px;
+}
+
+aside {
+    float: left;
+    width: 28%;
+    padding: 1.5%;
+    margin: 20px 2% 20px 0;
+    border: 1px solid blue;
+}
+article {
+    float: right;
+    width: 60%;
+    padding: 2%;
+    margin: 20px 0 20px 2%;    
+    border: 1px solid green;
+}
+
+.border-box-world {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.border-box-world * {
+    box-sizing: border-box;
+}
+
+.inline-block {
+    display: inline-block;
+    border: 1px solid red;
+    /* 
+    width: 300px; 
+lkjlkjad
+jlkj
+    */
+}
+
+.inline {
+    display: inline;
+    border: 1px solid red;
+    /*width: 300px;*/
+}
+
+.block {
+    display: block;
+    border: 1px solid red;
+    /*width: 300px;*/
+}
+
+</style>
+
+<hr/>Tu su priklady inline-block, inline a block<hr/>
+
+<div class="inline-block">
+    ahoj
+</div>
+<div class="inline-block">
+    stlpec
+</div>
+
+<br/><br />
+<div class="inline">
+    ahoj
+</div>
+<div class="inline">
+    stlpec
+</div>
+
+<div class="block">
+    ahoj
+</div>
+<div class="block">
+    stlpec
+</div>
+
+<hr/>Tu je klasicky box model<hr/>
+
+
+<br /><br />
+
+<div class="box-container">
+    <div class="box">box</div>
+</div>
+<br /><br />
+<div class="box-container">
+
+    <div class="box w300">box</div>
+
+</div>
+
+<br /><br />
+<div class="box-container">
+    <div class="box w300 b20">box</div>
+</div>
+
+
+
+<br /><br />
+
+<!--
+<aside>aside omnoho viac textu v nom</aside>
+<article>article</article>
+
+
+<br /><br />
+<br /><br />
+<br /><br />
+-->
+
+<hr/>Tu zacina <strong>border box svet</strong><hr/>
+<div class="border-box-world">
+
+<div class="box-container">
+    <div class="box">box</div>
+</div>
+
+
+<br /><br />
+<div class="box-container">
+    <div class="box w300">box</div>
+</div>
+
+<br /><br />
+<div class="box-container">
+    <div class="box w300 b20">box</div>
+</div>
+
+
+
+<br /><br />
+
+<aside>aside</aside>
+<article>article</article>
+
+</div>
+
+
+
+<!--
+
+aside
+
+
+
+article
+
+width: 60%;
+padding: 2%;
+margin: 20px 0 20px 2%;
+
+-->

@@ -1,0 +1,49 @@
+body {
+	font-size: 15px;
+}
+
+/* nazov tagu ako selektor */
+p {}
+
+section p {} /* kontextovost */
+
+/* class ako selector */
+.alt {}
+
+section .alt {} /* kontextovost */
+
+/* id ako selector */
+#intro {}
+
+/** speciality **/
+
+/* pseudo trieda */
+p:hover { }
+
+/* pseudo element */
+p:first-letter { 
+	font-size: 1.3em; 
+	color: blue;
+}
+
+/* vse selektor */
+* { }
+
+/* susedstvo */
+strong {}
+em {}
+
+strong + em { } /* len em, ktory je hned vedla strong */
+
+/* priama nadradenost */
+section strong { color: blue; }
+
+section > strong { color: red; } /* len strong, ktory je priamo pod section */
+
+p > strong { color: green; } /* len strong, ktory je priamo pod p */
+
+/* atribut */
+
+span[title] { color: yellow; }
+
+
