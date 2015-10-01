@@ -1,17 +1,65 @@
-* {
+/** {
 	padding: 0;
 	margin: 0;
+}*/
+
+body {
+	font-family: Helvetica, Tahoma, "Trebuchet MS", sans-serif;
+	background-color: #fefefe;
+}
+
+h1 img {
+	float: right;
+}
+
+article,
+aside {
+	margin-bottom: 15px;
+	padding: 15px;
 }
 
 article {
-	width: 59%;
-	border: 1px solid black;
+	width: 50%;
+	background: #bfdedf;
 	float: left;
 }
 
 aside {
-	color: blue;
-	width: 29%;
+	width: 35%;
 	float: right;
-	border: 1px solid blue;	
+	background: #dfdabf;
+}
+
+footer {
+	background: #ccc;
+	padding: 7px 12px;
+	font-size: 0.8em;
+	clear: both;
+}
+
+
+
+
+
+
+
+.bad footer {
+	clear: none;
+}
+
+footer.forreal {
+	background: #eee;
+	padding: 25px;
+	padding-right: 100px;
+	font-size: 0.65em;
+	color: #444;
+}
+
+footer.forreal a {
+	color: #2848b6;
+	text-decoration: none;
+}
+
+footer.forreal a:hover {
+	text-decoration: underline;
 }
