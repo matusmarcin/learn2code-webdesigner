@@ -156,7 +156,6 @@ Trochu viac o vlastnostiach:
 * Vytvoriť stránku s hlavičkou, pätičkou, dvoma stĺpcami s obsahom.
 * Stránka nech obsahuje text, nadpisy, odkazy a aspoň jeden vložený obrázok.
 * Použite CSS na vytvorenie vlastného jednoduchého dizajnu.
-    * [Príklad](lekcia2_zadanie.png)
 
 **Toto asi už dnes nestihneme:**
 
