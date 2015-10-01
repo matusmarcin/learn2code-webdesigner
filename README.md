@@ -5,8 +5,8 @@
 
 - [1. hodina](#1) &#10004;
 - [2. hodina](#2) &#10004;
-- [3. hodina](#3) **&#8592; tu sme** 
-- [4. hodina](#4)
+- [3. hodina](#3) &#10004;
+- [4. hodina](#4) **&#8592; tu sme** 
 - [5. hodina](#5)
 - [6. hodina](#6)
 
@@ -116,15 +116,6 @@ Developerské tooly
 - inspect element
 - firebug
 
-Box model
-- príklad
-- preskúmanie cez inspect element
-- ten druhý model + [rozdiely, úvaha, možnosť prepnúť to cez box-sizing](http://css-tricks.com/box-sizing/) + [Paul Irish](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
-
-Pozicovanie pomocou
-- [float](http://css-tricks.com/all-about-floats/)
-- [inline block](http://css-tricks.com/almanac/properties/d/display/)
-
 CSS vlastnosti na dnes:
 
 - color (:
@@ -143,6 +134,15 @@ CSS vlastnosti na dnes:
 
 ### <a name="4">4. hodina</a>
 
+Box model
+- príklad
+- preskúmanie cez inspect element
+- ten druhý model + [rozdiely, úvaha, možnosť prepnúť to cez box-sizing](http://css-tricks.com/box-sizing/) + [Paul Irish](http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+
+Pozicovanie pomocou
+- [float](http://css-tricks.com/all-about-floats/)
+- [inline block](http://css-tricks.com/almanac/properties/d/display/)
+
 Trochu viac o vlastnostiach:
 
 * margin
@@ -157,6 +157,8 @@ Trochu viac o vlastnostiach:
 * Stránka nech obsahuje text, nadpisy, odkazy a aspoň jeden vložený obrázok.
 * Použite CSS na vytvorenie vlastného jednoduchého dizajnu.
     * [Príklad](lekcia2_zadanie.png)
+
+**Toto asi už dnes nestihneme:**
 
 Práca s textom a typografia:
 - farba textu
