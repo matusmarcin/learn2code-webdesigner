@@ -6,8 +6,8 @@
 - [1. hodina](#1) &#10004;
 - [2. hodina](#2) &#10004;
 - [3. hodina](#3) &#10004;
-- [4. hodina](#4) **&#8592; tu sme** 
-- [5. hodina](#5)
+- [4. hodina](#4) &#10004;
+- [5. hodina](#5) **&#8592; tu sme** 
 - [6. hodina](#6)
 
 #### Responzívny web dizajn
@@ -157,12 +157,17 @@ Trochu viac o vlastnostiach:
 * Stránka nech obsahuje text, nadpisy, odkazy a aspoň jeden vložený obrázok.
 * Použite CSS na vytvorenie vlastného jednoduchého dizajnu.
 
-**Toto asi už dnes nestihneme:**
+### <a name="5">5. hodina</a>
 
 Práca s textom a typografia:
+
 - farba textu
-- font-family, font-size
-- text align, text decoration, text transform
+- [font-family](https://css-tricks.com/almanac/properties/f/font-family/), [font-size](https://css-tricks.com/almanac/properties/f/font-size/)
+- [text align](https://css-tricks.com/almanac/properties/t/text-align/)
+- [text decoration](https://css-tricks.com/almanac/properties/t/text-decoration/)
+- [text transform](https://css-tricks.com/almanac/properties/t/text-transform/)
+- [text shadow](https://css-tricks.com/almanac/properties/t/text-shadow/)
+- [box shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
 Používanie web-safe fontov
 
@@ -175,7 +180,9 @@ Citácie
 
 - cite, blockquote, q
 
-### <a name="5">5. hodina</a>
+Zadanie:
+
+    * [Takéto niečo.](5/ramcek.png)
 
 Formuláre
 
@@ -204,7 +211,7 @@ Formuláre
 1. Použite päť rôznych formulárových elementov a odošlite ich cez POST alebo GET na túto adresu:
     * [http://www.matusmarcin.com/learn2code/form.php](http://www.matusmarcin.com/learn2code/form.php)
 
-2. [HTML a CSS formulára](zadanie5.png)
+2. [HTML a CSS formulára](5/zadanie5.png)
 
 
 ### <a name="6">6. hodina</a>
