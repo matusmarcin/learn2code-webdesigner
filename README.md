@@ -169,6 +169,11 @@ Práca s textom a typografia:
 - [text shadow](https://css-tricks.com/almanac/properties/t/text-shadow/)
 - [box shadow](https://css-tricks.com/almanac/properties/b/box-shadow/)
 
+Ako používať shadows bez toho, aby ste ubližovali ľudom (a mnoho iného):
+
+- [7 Rules for Creating Gorgeous UI (Part 1 + 2)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda)
+- [Google Material Design](https://design.google.com/resources/)
+
 Používanie web-safe fontov
 
 Embedovanie web fontov
