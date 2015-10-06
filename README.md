@@ -182,7 +182,7 @@ Citácie
 
 Zadanie:
 
-    * [Takéto niečo.](5/ramcek.png)
+* [Takéto niečo.](5/ramcek.png)
 
 Formuláre
 
