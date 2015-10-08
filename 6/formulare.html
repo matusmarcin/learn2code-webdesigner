@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="forms.css" />
+
+<form action="http://www.matusmarcin.com/learn2code/form.php" method="post">
+
+<!-- formular s:
+
+1. meno (cele)
+2. heslo
+3. email
+
+overit funkcnost na:
+http://www.matusmarcin.com/learn2code/form.php
+
+odoslat:
+http://www.matusmarcin.com/learn2code/post.php
+
+WinSCP
+
+TotalCommander navod:
+
+gombik URL: martinpetrulak@martin.l2c.matusmarcin.com
+-> odkliknut anonymne prihlasenie
+
+malo by to ist.? :)
+
+
+-->
+
+
+<label for="email">E-mail:</label><input type="text" name="email" id="email" placeholder="Sem napis email"  value="cau@pokec.sk" /><br />
+<label>Heslo: </label><input type="password" name="password" /><br />
+
+<label>Pohlavie:</label>
+<label for="sex_male" class="label-radio"><input type="radio" checked="checked" name="sex" id="sex_male" value="male" /> muz</label>
+<label class="label-radio"><input type="radio" name="sex" value="female" /> zena</label>
+<label>Preferencia:</label>
+<label  class="label-radio"><input type="checkbox" checked="checked" name="preferencia[]" value="muz"/>na muzov</label><br/>
+<label  class="label-radio"><input type="checkbox" name="preferencia[]" value="zena"/>na zeny</label><br/>
+
+<label>Sprava</label>
+<textarea name="sprava">
+Ahoj, ...
+</textarea>
+
+<label>Moznosti</label>
+<select name="moznost">
+	<option value="1">Moznost jedna</option>
+	<option value="2" selected="selected">Moznost dva</option>
+</select>
+
+<input type="submit" value="Prihlasit sa" /><br />
+<!--
+<button>Odoslat alebo nieco ine</button><br />
+<input type="button" value="Zmazat policka" /><br />
+-->
+</form>
