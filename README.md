@@ -7,8 +7,8 @@
 - [2. hodina](#2) &#10004;
 - [3. hodina](#3) &#10004;
 - [4. hodina](#4) &#10004;
-- [5. hodina](#5) **&#8592; tu sme** 
-- [6. hodina](#6)
+- [5. hodina](#5) &#10004;
+- [6. hodina](#6) **&#8592; tu sme** 
 
 #### Responzívny web dizajn
 
@@ -189,7 +189,9 @@ Zadanie:
 
 * [Takéto niečo.](5/ramcek.png)
 
-Formuláre
+### <a name="6">6. hodina</a>
+
+**Formuláre!**
 
 - form
 - input
@@ -211,19 +213,16 @@ Formuláre
 - disabled
 - readonly
 
-**Zadanie/domáca úloha:**
+**Zadanie:**
 
 1. Použite päť rôznych formulárových elementov a odošlite ich cez POST alebo GET na túto adresu:
     * [http://www.matusmarcin.com/learn2code/form.php](http://www.matusmarcin.com/learn2code/form.php)
 
 2. [HTML a CSS formulára](5/zadanie5.png)
 
-
-### <a name="6">6. hodina</a>
-
 * Práca s FTP
 
-* Zadanie: CSS stránky so stĺpcami ([HTML tu](http://www.matusmarcin.com/learn2code/site.html))
+* Na doma: Zadanie: CSS stránky so stĺpcami ([HTML tu](http://www.matusmarcin.com/learn2code/site.html))
 * [**Komplet zadanie tu**](http://www.matusmarcin.com/learn2code/lekcia6zadanie.zip)
 
 ## Modul 2: Responzívny wed dizajn (RWD)
