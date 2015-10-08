@@ -222,8 +222,10 @@ Zadanie:
 
 * Práca s FTP
 
-* Na doma: Zadanie: CSS stránky so stĺpcami ([HTML tu](http://www.matusmarcin.com/learn2code/site.html))
-* [**Komplet zadanie tu**](http://www.matusmarcin.com/learn2code/lekcia6zadanie.zip)
+**Na doma:**
+
+* Zadanie: CSS stránky so stĺpcami ([HTML tu](http://www.matusmarcin.com/learn2code/site.html))
+* [**Komplet zadanie tu**](6/lekcia6zadanie.zip)
 
 ## Modul 2: Responzívny wed dizajn (RWD)
 
