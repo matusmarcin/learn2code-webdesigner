@@ -8,12 +8,12 @@
 - [3. hodina](#3) &#10004;
 - [4. hodina](#4) &#10004;
 - [5. hodina](#5) &#10004;
-- [6. hodina](#6) **&#8592; tu sme** 
+- [6. hodina](#6) &#10004; 
+- [7. hodina](#7) &#10004;
 
 #### Responzívny web dizajn
 
-- [7. hodina](#7)
-- [8. hodina](#8)
+- [8. hodina](#8) **&#8592; tu sme** 
 - [9. hodina](#9)
 - [10. hodina](#10) 
 - [11. hodina](#11)
@@ -222,14 +222,16 @@ Zadanie:
 
 * Práca s FTP
 
-**Na doma:**
+### <a name="7">7. hodina</a>
 
 * Zadanie: CSS stránky so stĺpcami ([HTML tu](http://www.matusmarcin.com/learn2code/site.html))
 * [**Komplet zadanie tu**](6/lekcia6zadanie.zip)
 
+* Práca s FTP
+
 ## Modul 2: Responzívny wed dizajn (RWD)
 
-### <a name="7">7. hodina</a>
+### <a name="8">8. hodina</a>
 
 * Responzívny dizajn - úvod
 * Pohľad do histórie
@@ -258,7 +260,7 @@ Hlavné aspekty RWD:
     * Ak je šírka menšia ako 1024px zobraziť #wrapper na plnú šírku
     * **[Riešenie na stiahnutie](http://www.matusmarcin.com/learn2code/lekcia7zadanie.zip)**
 
-### <a name="8">8. hodina</a>
+### <a name="9">9. hodina</a>
 
 Ešte k media queries ([zdroj](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)):
 * logické operátory v media queries
@@ -288,7 +290,7 @@ Užitočné stránky:
 6. Pre väčšie rozlíšenia dajte celému obsahu priestor z ľava aj sprava
 7. Bonus: Použite nejakú novú feature media queries.
 
-### <a name="9">9. hodina</a>
+### <a name="10">10. hodina</a>
 
 **Twitter Bootstrap**
 
@@ -324,7 +326,7 @@ Komponenty:
 * Bonus: Viac súborov, prepojiť ich medzi sebou
 
 
-### <a name="10">10. hodina</a>
+### <a name="11">11. hodina</a>
 
 * Zadanie/domáca úloha.
 
@@ -333,10 +335,6 @@ Zaujímavé čítanie:
 * [Bootstrap Expo](http://expo.getbootstrap.com/)
 * Ak ste nedávali pozor: Čo možno neviete [časť 1](https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know) a [časť 2](https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-still-might-not-know)
 * [Bootstrap na stackoverflow](http://stackoverflow.com/questions/tagged/twitter-bootstrap)
-
-### <a name="11">11. hodina</a>
-
-* Zadanie/domáca úloha.
 
 ## Modul 3: Javascript/jQuery
 
