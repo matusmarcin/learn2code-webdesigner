@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+body:before {
+  content: "";
+  position: fixed;
+  left: -10px;
+  top: -10px;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../bg.jpg');
+  width: 105%;
+  height: 105%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+body {
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: rgba(236, 240, 241, 0.86);
+    margin: 50px auto 80px;
+    border-radius: 70px;
+}
+
+header {
+    height: 140px;
+    background-color: #fff;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    padding: 40px;
+}
+
+#logo {
+    margin-left: 30px;
+    height: 100px;
+}
+
+#logo img {
+    border-radius: 70px;
+    float: left;
+}
+
+nav {
+    margin-left: 220px;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+
+nav li a {
+    color: rgba(39, 174, 96,1.0);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgba(46, 204, 113,1.0);
+    text-decoration: underline;
+}
+
+#content {
+    float: left;
+    width: 65%;
+    padding: 3%;
+}
+
+#content p{
+    font-size: 1.1em;
+    line-height: 1.15em;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    line-height: 1.75em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+h2 + p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+h3 + p {
+    margin-bottom: 10px;
+}
+
+#logo h1 {
+    float: left;
+    font-size: 3.0em;
+    font-weight: 300;
+    margin: 30px 0 0 40px;
+    line-height: initial;
+}
+
+#rightcol {
+    float: left;
+    width: 24%;
+    padding: 40px 2%;
+}
+
+footer {
+    clear: both;
+    height: 40px;
+    padding: 60px 0;
+    background-color: #fff;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    color: #7f8c8d;
+    font-weight: 300;
+}
+
+footer a {
+    color: #27ae60;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2ecc71;
+}

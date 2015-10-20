@@ -13,9 +13,9 @@
 
 #### Responzívny web dizajn
 
-- [8. hodina](#8) **&#8592; tu sme** 
-- [9. hodina](#9)
-- [10. hodina](#10) 
+- [8. hodina](#8) &#10004; 
+- [9. hodina](#9) &#10004;
+- [10. hodina](#10) **&#8592; tu sme** 
 - [11. hodina](#11)
 
 #### JavaScript a jQuery

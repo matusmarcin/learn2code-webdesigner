@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper, header, #content, footer, #rightcol {
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-size: 1.7em;
+    margin: 0.4em 0;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.gallery li {
+	float: left;
+	width: 49%;
+}
+
+.gallery li img {
+	width: 100%;
+}
+

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&subset=latin,latin-ext);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper, header, #content, footer, #rightcol {
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    font-size: 1.7em;
+    margin: 0.4em 0;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.gallery ul {
+  padding: 0;
+}
+
+.gallery li {
+  display: block;
+
+}
+
+/*Default styles*/
+.gallery li {
+  float: left;
+  width: 50%;
+}
+
+.gallery li img {
+    margin: 3%;
+    width: 93%;
+}
+
+aside, footer { 
+  clear: both;  
+}
+
+/*Display 4 per row for medium displays (like mobile phones in landscape or smaller tablets)*/
+@media screen and (min-width: 28.75em) {
+  .gallery li {
+    width: 25%;
+  }
+}
+/*Display 6 to a row for large displays (like medium tablets and up) */
+@media screen and (min-width: 40.5em) {
+  .gallery li {
+    width: 16.6666667%;
+  }
+}
+/* 5. uloha */
+@media screen and (min-width: 52.5em) {
+  #content {
+    float: left;
+    width: 42em;
+  }
+
+  #rightcol {
+    width: 9em;
+    float: left;
+    clear: none;
+  }
+}
+/* 6. uloha */
+@media only screen and (min-width: 60em) {
+  #wrapper {
+    width: 54em;
+    margin: 0 auto;
+  }
+}
+
+@media all and (orientation: portrait) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media all and (orientation: landscape) {
+  h1 {
+    color: green;
+  }
+}
+
+#wrapper {
+  border: 1px solid red;
+  height: calc(98vh - 2px);
+  padding: 1vh;
+}
