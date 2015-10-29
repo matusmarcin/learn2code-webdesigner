@@ -342,7 +342,7 @@ Zaujímavé čítanie:
 
 * Prehľad front-end technológií, používaných pri tvorbe stránok - HTML, CSS a JavaScript.
 
-[Rýchlokurz](rychlokurz.html) programovania v jazyku JavaScript:
+[Rýchlokurz](http://www.matusmarcin.com/learn2code/rychlokurz.html) programovania v jazyku JavaScript:
 
 * Chrome Developer Tools
 * práca s premennými, 
@@ -356,8 +356,8 @@ Zaujímavé čítanie:
 
 ### <a name="13">13. hodina</a>
 
-* rekapitulácia [Rýchlokurzu](rychlokurz.html)
-* [Knihu ťahaj](jshandbook.pdf)
+* rekapitulácia [Rýchlokurzu](http://www.matusmarcin.com/learn2code/rychlokurz.html)
+* Knihu už by si mal mať
 
 Document Object Model:
 
