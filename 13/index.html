@@ -1,0 +1,37 @@
+<html>
+<head>
+
+<script src="jquery.min.js"></script>
+<script>
+// sem môže ísť ďžavaskript
+
+// document ready
+// $(function() {
+
+// 	$('h1').slideUp().delay(2000).slideDown().slideUp().slideDown();
+
+// });
+
+</script>
+</head>
+<body>
+<h1 class="title" id="heading">Toto je moja stránka</h1>
+
+<script>
+/* 
+Týmto zabezpečíme, že všetky premenné, ktoré v kóde vytvoríme, budú izolované od takzvaného „globálneho prostredia“. V rámci jedného projektu budeme často využívať množstvo rôznych skriptov od rôznych programátorov a z rôznych prostredí. Ak by títo programátori neizolovali svoje premenné a názvy týchto premenných by sa zhodovali s našimi názvami, mohli byť nastať problémy. Hodnoty by sa mohli poprepisovať, skripty by mohli prestať fungovať. Týmto zápisom vytvoríme bezpečný obal pre všetok náš kód. 
+Pre začiatok si stačí zapamätať, že náš jQuery kód bude obalený buď anonymnou funkciu (ak je na konci stránky) alebo document ready funkciu (ak je na jej začiatku). 
+*/
+(function($) {
+
+	// $('h1').slideUp().delay(2000).slideDown().slideUp().slideDown();
+	// css selektory tiez bavia
+	// $('.title')
+	// $('#heading')
+	$('h1').animate({fontSize: '3em', opacity: 0.3}, 3000);
+
+
+})(jQuery);
+</script>
+</body>
+</html>
