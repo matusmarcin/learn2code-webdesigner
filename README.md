@@ -15,13 +15,13 @@
 
 - [8. hodina](#8) &#10004; 
 - [9. hodina](#9) &#10004;
-- [10. hodina](#10) **&#8592; tu sme** 
-- [11. hodina](#11)
+- [10. hodina](#10) &#10004;
+- [11. hodina](#11) &#10004;
 
 #### JavaScript a jQuery
 
-- [12. hodina](#12)
-- [13. hodina](#13)
+- [12. hodina](#12) &#10004;
+- [13. hodina](#13) **&#8592; tu sme** 
 - [14. hodina](#14)
 - [15. hodina](#15)
 - [16. hodina](#16)
