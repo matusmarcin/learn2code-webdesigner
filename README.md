@@ -21,8 +21,8 @@
 #### JavaScript a jQuery
 
 - [12. hodina](#12) &#10004;
-- [13. hodina](#13) **&#8592; tu sme** 
-- [14. hodina](#14)
+- [13. hodina](#13) &#10004;
+- [14. hodina](#14) **&#8592; tu sme** 
 - [15. hodina](#15)
 - [16. hodina](#16)
 - [17. hodina](#17)
