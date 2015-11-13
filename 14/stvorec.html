@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>animate demo</title>
+  <style>
+  div {
+    position: absolute;
+    background-color: #abc;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+  }
+  .block2, .block5 {
+    /*left: 1173px;*/
+    /* alebo takto: */
+    /*right: 5px;
+    left: initial;*/
+    top: 120px;
+  }
+  .block3 {
+    /*left: initial;*/
+    top: 250px;
+  }
+  .block4 {
+    /*top: 360px;*/
+    background: orange;
+  }
+  .cervena {
+    color: red;
+  }
+  .icon {
+    background: #ef3300;
+    display: inline-block;
+    padding: 15px;
+    font-size: 2em;
+    color: #fff;
+    position: absolute; /* toto je jedine dolezite */
+    left: 10px;
+    top: 100px;
+    cursor: pointer;
+  }
+  h1 {
+    position: absolute;
+    left: 10px;
+  }
+  </style>
+  <script src="../13/jquery.min.js"></script>
+</head>
+<body>
+<!-- <div class="block"></div>
+<div class="block2"></div>
+<div class="block3"></div> -->
+<!--<div class="block4"></div> 
+<div class="block5"></div> -->
+
+<h1>Nadpis</h1>
+
+<a class="link" href="http://cdn.coresites.factorymedia.com/mpora_new/wp-content/uploads/2014/06/tumblr_mdptnbbsRL1rqzdyxo1_500.jpg">Portfolio</a>
+
+<span class="icon">&euro;</span>
+<script>
+
+(function($) {
+
+  // $('.block').animate({ "marginLeft": "90%" }, "slow" );
+  // $('.block2').animate({ "marginLeft": "90%" }, "slow" );
+  // $('.block3').css('left', 'initial').animate({ "right": "5px" }, "slow" );
+
+
+  // var posun = (window.innerWidth-$('.block4').width()-15);
+
+  // $('.block4').animate(
+  //                       { "left": posun+"px" }, 
+  //                       "slow", 
+  //                       "linear" 
+  //                     );
+
+  // $('.block5').animate({ "left": (window.innerWidth-$('.block4').width()-15)+"px" }, "slow", "swing" );
+
+  $('.icon').on('click', function(event) {
+    // console.log(event);
+    $('h1').animate({left: "+=100px"}, 2000);
+  });
+
+  $('.link').on('click', function(event) {
+    // svoje veci - krajsie zobrazite obrazok
+    alert('predstavte si obrazok.');
+    event.preventDefault();
+  });
+
+
+})(jQuery);
+
+</script>
+</body>
+</html>

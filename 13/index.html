@@ -28,7 +28,9 @@ Pre začiatok si stačí zapamätať, že náš jQuery kód bude obalen
 	// css selektory tiez bavia
 	// $('.title')
 	// $('#heading')
-	$('h1').animate({fontSize: '3em', opacity: 0.3}, 3000);
+	$('h1')	.animate({fontSize: '3em', opacity: 0.3}, 3000)
+			.hide()
+			.fadeIn();
 
 
 })(jQuery);
