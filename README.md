@@ -22,8 +22,8 @@
 
 - [12. hodina](#12) &#10004;
 - [13. hodina](#13) &#10004;
-- [14. hodina](#14) **&#8592; tu sme** 
-- [15. hodina](#15)
+- [14. hodina](#14) &#10004;
+- [15. hodina](#15) **&#8592; tu sme** 
 - [16. hodina](#16)
 - [17. hodina](#17)
 - [18. hodina](#18)
@@ -424,7 +424,7 @@ Príklad:
 * Pamätáte si: DOM = strom?
 * [jQuery vie dobre loziť po stromoch](http://api.jquery.com/category/traversing/)
 
-Úloha z knihy ([HTML tu](dl.txt)):
+Úloha z knihy ([HTML tu](http://www.matusmarcin.com/learn2code/dl.txt)):
 
 1. časť - strana 32
 2. časť - akordeón, strana 34
