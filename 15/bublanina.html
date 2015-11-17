@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>manipulacia a bublanina</title>
+  <script src="../13/jquery.min.js"></script>
+</head>
+<body>
+<ul class="list">
+<li>ja som maly zoznamcek</li>
+<li>zoznamim sa rad</li>
+<li>ja som maly zoznamcek</li>
+<li>bud moj kamarat</li>
+<!-- komentar -->
+</ul> 
+
+<script> 
+// var ul = $('.list'); 
+// po kliknuti na kazdy li element, pridame do zoznamu dalsi li element  
+/* viac riadkovy - 
+   ako v css */
+
+// ul.on('click', 'li', function() { 
+//   ul.append('<li>JA SOM TU NOVY</li>'); 
+// }); 
+
+
+
+$('.list li').on('click', function(event) {
+	// nieco strasne dolezite sa tu udeje
+	// toto je len debug
+	console.log('klikol si na LI');
+	// zastavim bublanie dalej
+	event.stopPropagation();
+});
+
+$('.list').on('click', function(event) {
+	// tu sa deje nieco ine strasne dolezite
+	console.log('klikol si na UL');
+});
+
+$('body').on('click', function() {
+	console.log('klikol si na BODY');
+});
+
+
+var ul2 = $('.list2'); 
+</script>
+
+</body>
+</html>

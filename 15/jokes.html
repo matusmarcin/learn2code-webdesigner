@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>animate demo</title>
+  <script src="../13/jquery.min.js"></script>
+  <style>
+  p {background: yellow;}
+  </style>
+</head>
+<body>
+<dl class="jokes">
+	<dt>I've spent the past two years looking for my ex-girlfriend's killer...</dt>
+	<dd>But no one will do it.<small class="author">- Anthony Jeselnik</small></dd>
+	
+	<dt>Yesterday I accidentally hit a little kid with my car.</dt>
+	<dd>It wasn't serious - nobody saw me. <small class="author">- Anthony Jeselnik</small></dd>
+
+	<dt>I once went on a date with a girl where we went hiking...</dt>
+	<dd>...and she gets bit by a snake in between her toes, and I had to suck out the poison... So she's dead.<small class="author">- Anthony Jeselnik</small></dd>
+
+	<dt>When I finished high school I wanted to buy myself a motorcycle.</dt>
+	<dd>Buy my mom said no. See, she had a brother who died in a horrible motorcycle accident when he was 18. And I could have his motorcycle. <small class="author">- Anthony Jeselnik</small></dd>
+
+	<dt>Whenever I meet a pretty girl, the first thing I look for is intelligence</dt>
+	<dd>Because if she doesn't have that, then she's mine. <small class="author">- Anthony Jeselnik</small></dd>
+</dl>
+
+
+<p>Ahoj</p>
+
+<script> 
+// ulozime si zoznam vtipov do premennej 
+var list = $('.jokes');
+// najdeme vsetky dd elementy spadajuce pod zoznam
+list.find('dd').hide();   
+
+// zobrazime dd po kliknuti na jeho predchadzajuci dt element 
+list.find('dt').on('click', function() { 
+	$(this).next().slideToggle().siblings('dd').slideUp(); 
+}); 
+</script>
+
+</body>
+</html>
