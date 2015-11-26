@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+	<title>Galeria hasiacich pristrojov</title>
+<style>
+	.gallery a {
+		width: 20%;
+		display: inline-block;
+		padding: 2%;
+		border: 1px solid #fff;
+	}
+	.gallery a:hover {
+		border: 1px solid #ccc;
+	}
+	.gallery img {
+		width: 100%;
+	}
+
+	#overlay {
+		background: rgba(0, 0, 0, 0.7);
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 20;
+		text-align: center;
+	}
+
+	#overlay img {
+		margin-top: 5%;
+		border: 5px solid white;
+		border-radius: 5px;
+		height: 70%;  /* TOTO je dzive */
+	}
+
+</style>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+</head>
+<body>
+
+<a href="#" id="slideshow">Play slideshow</a>
+
+<div class="gallery">
+	<a class="fancybox" rel="group" href="ext1.jpg"><img src="ext1.jpg" alt="obrazok" /></a>
+	<a class="fancybox" rel="group" href="ext2.jpg"><img src="ext2.jpg" alt="obrazok" /></a>
+	<a class="fancybox" rel="group" href="ext3.jpg"><img src="ext3.jpg" alt="obrazok" /></a>
+	<a class="fancybox" rel="group" href="ext4.jpg"><img src="ext4.jpg" alt="obrazok" /></a>
+</div>
+
+
+
+	<script src="jquery-1.11.1.js"></script>
+	<!--<script src="script.js"></script>-->
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+</body>
+</html>

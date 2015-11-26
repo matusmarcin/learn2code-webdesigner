@@ -23,10 +23,10 @@
 - [12. hodina](#12) &#10004;
 - [13. hodina](#13) &#10004;
 - [14. hodina](#14) &#10004;
-- [15. hodina](#15) **&#8592; tu sme** 
-- [16. hodina](#16)
-- [17. hodina](#17)
-- [18. hodina](#18)
+- [15. hodina](#15) &#10004;
+- [16. hodina](#16) &#10004;
+- [17. hodina](#17) &#10004;
+- [18. hodina](#18) **&#8592; tu sme** 
 - [19. hodina](#19)
 - [20. hodina](#20) 
 - [21. hodina](#21)
@@ -547,7 +547,7 @@ __2. úloha:__ Použite ich. Čím viac, tým lepšie. Môžete zapojiť aj JS.
 
 ### <a name="19">19. hodina</a>
 
-Toto sme spravili minule &raquo; [Aha, lopta!](animacia.html)
+Toto sme spravili minule &raquo; [Aha, lopta!](http://www.matusmarcin.com/learn2code/animacia.html)
 
 Pokračovanie:
 
