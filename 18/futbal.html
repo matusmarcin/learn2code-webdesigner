@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+	<title>Rock'n'roll #2</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#noha {
+			position: absolute;
+			top: 60vh;
+			width: 15vw;
+			left: -1vw;
+			z-index: 10;
+		}
+		
+		#noha:hover {
+			transform: rotateZ(-40deg);
+			top: 57vh;
+		}
+
+		.nohanekop {
+			animation: kop .3s 0s infinite alternate ease-in-out;
+		}
+
+		@-webkit-keyframes kop {
+			0% { top: 60vh; }
+			100% { 
+				transform: rotateZ(-40deg);
+				top: 57vh;
+			}
+		}
+
+		#futbalka {
+			position: absolute;
+			top: 60vh;
+			left: 10vw;
+			width: 6vw;
+			height: 6vw;
+			border-radius: 100%;
+			/*background-color: blue;*/
+			color: black;
+			text-align: center;
+			line-height: 6vw;
+			color: white;
+			z-index: 11;
+			background-image: url('lopta.png');
+			background-size: cover;
+		}
+
+		#tien {
+			position: absolute;
+			top: 70vh;
+			left: 10vw;
+			width: 6vw;
+			height: 1.5vw;
+			background: #ccc;
+			border-radius: 100%;
+			box-shadow: #ccc 0px 0px 3px 2px;
+			z-index: 9;
+		}
+
+		.tienlet {
+			-webkit-animation: 	shadow 3s .3s infinite alternate ease-in-out;
+		}
+
+		@-webkit-keyframes shadow {
+			0%	 { margin-left: 0; }
+			55%  { 
+				opacity: 0.7; 
+				box-shadow: #ccc 0px 0px 15px 2px; 
+				width: 3vw;
+				height: .5vw;
+			}
+			100% { margin-left: 84vw; }
+		}
+
+		.let {
+			-webkit-animation: throw 3s .3s infinite alternate ease-in-out;
+		}
+
+		@-webkit-keyframes throw {
+			0%	 { margin-left: 0; }
+			55%  { top: 0px;}
+			100% { margin-left: 84vw; }
+		}
+
+		.letakrut {
+			-webkit-animation: 	throw 3s .3s infinite alternate ease-in-out, 
+								spin 600ms infinite linear;
+		}
+
+		@-webkit-keyframes spin {
+			0%	 { -webkit-transform: rotate(0deg); }
+			100% { -webkit-transform: rotate(360deg); }
+		}
+
+	</style>
+</head>
+<body>
+
+	<img src="noha.png" id="noha" class="nohakop" />
+	<div id="futbalka" class="letakrut"></div>
+	<div id="tien" class="tienlet"></div>
+	<!-- <div> </div>
+	<div> </div> -->
+
+	<script src="../14/jquery-1.11.1.js"></script>
+	<script>
+		$('div').on('click', function(event) {
+			$('div').toggleClass('round-round');
+		});
+	</script>
+</body>
+</html>
