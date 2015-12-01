@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Elvis Presley</title>
-	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../../10/bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
 	<style>
 	 #hore {
 	 	font-size: 2em;
@@ -41,14 +41,14 @@
 
 <!-- <a href="#" id="hore">&uarr; hore</a> -->
 
-<script src="../../jquery/jquery-1.11.1.js"></script>
+<script src="../../13/jquery.min.js"></script>
 <script>
 
 	var content = $('.content');
 
 	$('.menu a').on('click', function(event) {
 		var a = $(this),
-			href = a.attr('href');
+			href = "http://www.matusmarcin.com/learn2code/elvis/" + a.attr('href');
 
 		// TOTO JE AJAX:
 		// do divu .content natiahneme (load) URL adresu (napr. http://localhost/sex.html)

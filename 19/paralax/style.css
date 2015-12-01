@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-weight: 300;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+.pozadie {
+  height: 500px;
+  position: relative;
+}
+
+.pozadie .obrazok {
+  background: url('tatry.jpg');
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pozadie h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 800px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.text h2 {
+  text-align: center;
+  line-height: 100px;
+  margin-top: 30px;
+}
+
+.text p {
+  margin: 30px 6em;
+  font-size: 1.2em;
+}
