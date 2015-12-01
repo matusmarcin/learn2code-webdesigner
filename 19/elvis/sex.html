@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<title>Elvis Presley</title>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	<style>
+	 #hore {
+	 	font-size: 2em;
+	 	display: block;
+	 	position: fixed;
+	 	bottom: 30px;
+	 	right: 20px;
+	 	background: rgba(255,255,255,0.9);
+	 	padding: 5px 14px;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.4);
+	 }
+	 #hore:hover {
+	 	text-decoration: none;
+	 	color: orange;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.6);
+	 }
+	</style>
+</head>
+<body class="container-fluid">
+
+<h1>Elvis Presley</h1>
+
+<ul class="menu">
+	<li><a href="index.html">Life and career</a></li>
+	<li><a href="style.html">Musical style</a></li>
+	<li><a href="sex.html">Sex symbol</a></li>
+	<li><a href="legacy.html">Legacy</a></li>
+</ul>
+
+<div id="sex" class="content">
+<h2>Sex symbol</h2>
+<p>Presley's physical attractiveness and sexual appeal were widely acknowledged. "He was once beautiful, astonishingly beautiful", in the words of critic Mark Feeney.[362] Television director Steve Binder, no fan of Presley's music before he oversaw the '68 Comeback Special, reported, "I'm straight as an arrow and I got to tell you, you stop, whether you're male or female, to look at him. He was that good looking. And if you never knew he was a superstar, it wouldn't make any difference; if he'd walked in the room, you'd know somebody special was in your presence."[363] His performance style, as much as his physical beauty, was responsible for Presley's eroticized image. Writing in 1970, critic George Melly described him as "the master of the sexual simile, treating his guitar as both phallus and girl."[364] In his Presley obituary, Lester Bangs credited him as "the man who brought overt blatant vulgar sexual frenzy to the popular arts in America."[365] Ed Sullivan's declaration that he perceived a soda bottle in Presley's trousers was echoed by rumors involving a similarly positioned toilet roll tube or lead bar.</p>
+<p>While Presley was marketed as an icon of heterosexuality, some cultural critics have argued that his image was ambiguous. In 1959, Sight and Sound‍ '​s Peter John Dyer described his onscreen persona as "aggressively bisexual in appeal".[367] Brett Farmer places the "orgasmic gyrations" of the title dance sequence in Jailhouse Rock within a lineage of cinematic musical numbers that offer a "spectacular eroticization, if not homoeroticization, of the male image".[368] In the analysis of Yvonne Tasker, "Elvis was an ambivalent figure who articulated a peculiar feminised, objectifying version of white working-class masculinity as aggressive sexual display."</p>
+<p>Reinforcing Presley's image as a sex symbol were the reports of his dalliances with various Hollywood stars and starlets, from Natalie Wood in the 1950s to Connie Stevens and Ann-Margret in the 1960s to Candice Bergen and Cybill Shepherd in the 1970s. June Juanico of Memphis, one of Presley's early girlfriends, later blamed Parker for encouraging him to choose his dating partners with publicity in mind.[203] Presley never grew comfortable with the Hollywood scene, and most of these relationships were insubstantial.</p>
+</div>
+
+<a href="#" id="hore">&uarr; hore</a>
+
+<script src="../14/jquery-1.11.1.js"></script>
+<script>
+	var menu = $('.menu'),
+		menuLinks = menu.find('a');
+
+	menuLinks.on('click', function(event) {
+		// podla hashu vyberieme element, na ktory chceme scrollovat
+		var el = $(this.hash);
+
+		// animujeme hodnotu scrollTop k vrchnemu okraju nasho elementu
+		$('html,body').animate({scrollTop: el.offset().top});
+
+		event.preventDefault();
+	});
+
+	$('#hore').on('click', function(event) {
+		$('html,body').animate({scrollTop: 0});
+		event.preventDefault();
+	});
+</script>
+
+</body>
+</html>

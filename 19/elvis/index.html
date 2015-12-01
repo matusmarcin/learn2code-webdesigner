@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+	<title>Elvis Presley</title>
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	<style>
+	 #hore {
+	 	font-size: 2em;
+	 	display: block;
+	 	position: fixed;
+	 	bottom: 30px;
+	 	right: 20px;
+	 	background: rgba(255,255,255,0.9);
+	 	padding: 5px 14px;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.4);
+	 }
+	 #hore:hover {
+	 	text-decoration: none;
+	 	color: orange;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.6);
+	 }
+	</style>
+</head>
+<body class="container-fluid">
+
+<h1>Elvis Presley</h1>
+
+<ul class="menu">
+	<li><a href="index.html">Life and career</a></li>
+	<li><a href="style.html">Musical style</a></li>
+	<li><a href="sex.html">Sex symbol</a></li>
+	<li><a href="legacy.html">Legacy</a></li>
+</ul>
+
+<button id="fb">Facebook</button>
+
+<div id="life" class="content">
+</div>
+<div class="content2">
+</div>
+
+<!-- <a href="#" id="hore">&uarr; hore</a> -->
+
+<script src="../../jquery/jquery-1.11.1.js"></script>
+<script>
+
+	var content = $('.content');
+
+	$('.menu a').on('click', function(event) {
+		var a = $(this),
+			href = a.attr('href');
+
+		// TOTO JE AJAX:
+		// do divu .content natiahneme (load) URL adresu (napr. http://localhost/sex.html)
+		// parameter funkcie je potom toto: 'sex.html .content'
+		// content.load(href + ' .content');
+		content.html("Načítavam...");
+		$.ajax({
+			url: href, 
+			type: 'GET',
+			dataType: 'html',
+			success: function(data) {
+				var newContent = $(data).find('.content').hide();
+				content.html(newContent);
+				newContent.fadeIn('fast');
+			}
+		});
+
+		event.preventDefault();
+	});
+
+	$('#fb').on('click', function(event) {
+		var href = 'http://graph.facebook.com/ladygaga';
+
+		$.ajax({
+			url: href,
+			type: 'GET',
+			dataType: 'json',
+			success: function(data) {
+				newHtml = 'Lady Gaga ma ' + data.likes + ' lajkov.<br />';
+				$('.content').html(newHtml)
+			}
+		});
+		
+		var href2 = 'http://graph.facebook.com/learn2codesk';
+
+		$.ajax({
+			url: href2,
+			type: 'GET',
+			dataType: 'json',
+			success: function(data) {
+				newHtml = 'Learn2Code ma ' + data.likes + ' lajkov.<br />';
+				$('.content2').html(newHtml)
+			}
+		});
+
+		event.preventDefault();
+	});
+
+</script>
+
+</body>
+</html>

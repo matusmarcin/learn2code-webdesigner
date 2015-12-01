@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<title>Elvis Presley</title>
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	<style>
+	 #hore {
+	 	font-size: 2em;
+	 	display: block;
+	 	position: fixed;
+	 	bottom: 30px;
+	 	right: 20px;
+	 	background: rgba(255,255,255,0.9);
+	 	padding: 5px 14px;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.4);
+	 }
+	 #hore:hover {
+	 	text-decoration: none;
+	 	color: orange;
+	 	box-shadow: 0 0 4px 2px rgba(100,100,100,0.6);
+	 }
+	</style>
+</head>
+<body class="container-fluid">
+
+<h1>Elvis Presley</h1>
+
+<ul class="menu">
+	<li><a href="index.html">Life and career</a></li>
+	<li><a href="style.html">Musical style</a></li>
+	<li><a href="sex.html">Sex symbol</a></li>
+	<li><a href="legacy.html">Legacy</a></li>
+</ul>
+
+<div id="style" class="content">
+<h2>Musical style</h2>
+<p>Presley's earliest musical influence came from gospel. His mother recalled that from the age of two, at the Assembly of God church in Tupelo attended by the family, "he would slide down off my lap, run into the aisle and scramble up to the platform. There he would stand looking at the choir and trying to sing with them."[311] In Memphis, Presley frequently attended all-night gospel singings at the Ellis Auditorium, where groups such as the Statesmen Quartet led the music in a style that, Guralnick suggests, sowed the seeds of Presley's future stage act.</p>
+<p>Presley was a central figure in the development of rockabilly, according to music historians. Katherine Charlton even calls him "rockabilly's originator",[314] though Carl Perkins has explicitly stated that "[Sam] Phillips, Elvis, and I didn't create rockabilly."[315] and, according to Michael Campbell, "Bill Haley recorded the first big rockabilly hit."[316] "It had been there for quite a while", says Scotty Moore. "Carl Perkins was doing basically the same sort of thing up around Jackson, and I know for a fact Jerry Lee Lewis had been playing that kind of music ever since he was ten years old."[317] However, "Rockabilly crystallized into a recognizable style in 1954 with Elvis Presley's first release, on the Sun label", writes Craig Morrison.[318] Paul Friedlander describes the defining elements of rockabilly, which he similarly characterizes as "essentially ... an Elvis Presley construction": "the raw, emotive, and slurred vocal style and emphasis on rhythmic feeling [of] the blues with the string band and strummed rhythm guitar [of] country".[319] In "That's All Right", the Presley trio's first record, Scotty Moore's guitar solo, "a combination of Merle Travis–style country finger-picking, double-stop slides from acoustic boogie, and blues-based bent-note, single-string work, is a microcosm of this fusion."</p>
+<p>At RCA, Presley's rock and roll sound grew distinct from rockabilly with group chorus vocals, more heavily amplified electric guitars[320] and a tougher, more intense manner.[321] While he was known for taking songs from various sources and giving them a rockabilly/rock and roll treatment, he also recorded songs in other genres from early in his career, from the pop standard "Blue Moon" at Sun to the country ballad "How's the World Treating You?" on his second LP to the blues of "Santa Claus Is Back In Town". In 1957, his first gospel record was released, the four-song EP Peace in the Valley. Certified as a million seller, it became the top-selling gospel EP in recording history.[322] Presley would record gospel periodically for the rest of his life.</p>
+</div>
+
+<a href="#" id="hore">&uarr; hore</a>
+
+<script src="../14/jquery-1.11.1.js"></script>
+<script>
+	var menu = $('.menu'),
+		menuLinks = menu.find('a');
+
+	menuLinks.on('click', function(event) {
+		// podla hashu vyberieme element, na ktory chceme scrollovat
+		var el = $(this.hash);
+
+		// animujeme hodnotu scrollTop k vrchnemu okraju nasho elementu
+		$('html,body').animate({scrollTop: el.offset().top});
+
+		event.preventDefault();
+	});
+
+	$('#hore').on('click', function(event) {
+		$('html,body').animate({scrollTop: 0});
+		event.preventDefault();
+	});
+</script>
+
+</body>
+</html>
