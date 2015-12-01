@@ -26,8 +26,8 @@
 - [15. hodina](#15) &#10004;
 - [16. hodina](#16) &#10004;
 - [17. hodina](#17) &#10004;
-- [18. hodina](#18) **&#8592; tu sme** 
-- [19. hodina](#19)
+- [18. hodina](#18) &#10004;
+- [19. hodina](#19) **&#8592; tu sme** 
 - [20. hodina](#20) 
 - [21. hodina](#21)
 - [22. hodina](#22)
@@ -565,7 +565,7 @@ Pokračovanie:
 
 (viac-menej to, čo na s. 47-48 v knihe) 
 
-Predpríprava (ak nemáte takto [stránku](elvis.zip)):
+Predpríprava (ak nemáte takto [stránku](http://www.matusmarcin.com/learn2code/elvis.zip)):
 
 * Upraviť scrollovacie zadanie - rozdeliť ho do viacerých súborov.
 * Každý súbor bude mať menu a svoju čast z menu. 
@@ -600,11 +600,11 @@ Dosť bolo AJAXu. Či?
 
 [jQuery UI](http://jqueryui.com/):
 
-* pár príkladov (s. 52, [HTML](jqueryui.html))
+* pár príkladov (s. 52, [HTML](http://www.matusmarcin.com/learn2code/jqueryui.html))
 
 Úloha:
 
-* Parallax scrollovanie, [ehm](paralax.zip)
+* Parallax scrollovanie, [ehm](http://www.matusmarcin.com/learn2code/paralax.zip)
 
 Zadanie:
 
