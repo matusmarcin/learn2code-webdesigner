@@ -621,6 +621,8 @@ Budeme váľať šunky.
 
 Vlastná práca.
 
+Toto je super vec: [Tipy a triky a nástroje](https://github.com/matusmarcin/tutorials-and-howtos/blob/master/tipy-triky-nastroje.md)
+
 **Dôležité:**
 
 Vaše projekty budú hodnotené podľa:
