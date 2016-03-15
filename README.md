@@ -3,41 +3,42 @@
 ### Obsah
 #### HTML/CSS
 
-- [1. hodina](#1) &#10004;
-- [2. hodina](#2) &#10004;
-- [3. hodina](#3) &#10004;
-- [4. hodina](#4) &#10004;
-- [5. hodina](#5) &#10004;
-- [6. hodina](#6) &#10004; 
-- [7. hodina](#7) &#10004;
+- [1. hodina](#1) **&#8592; tu sme** 
+- [2. hodina](#2) 
+- [3. hodina](#3) 
+- [4. hodina](#4) 
+- [5. hodina](#5) 
+- [6. hodina](#6) 
+- [7. hodina](#7) 
 
 #### Responzívny web dizajn
 
-- [8. hodina](#8) &#10004; 
-- [9. hodina](#9) &#10004;
-- [10. hodina](#10) &#10004;
-- [11. hodina](#11) &#10004;
+- [8. hodina](#8) 
+- [9. hodina](#9) 
+- [10. hodina](#10) 
+- [11. hodina](#11) 
 
 #### JavaScript a jQuery
 
-- [12. hodina](#12) &#10004;
-- [13. hodina](#13) &#10004;
-- [14. hodina](#14) &#10004;
-- [15. hodina](#15) &#10004;
-- [16. hodina](#16) &#10004;
-- [17. hodina](#17) &#10004;
-- [18. hodina](#18) &#10004;
-- [19. hodina](#19) &#10004;
-- [20. hodina](#20) &#10004;
-- [21. hodina](#21) &#10004;
-- [22. hodina](#22) **&#8592; tu sme** 
+- [12. hodina](#12) 
+- [13. hodina](#13) 
+- [14. hodina](#14) 
+- [15. hodina](#15) 
+- [16. hodina](#16) 
+- [17. hodina](#17) 
+- [18. hodina](#18) 
+- [19. hodina](#19) 
+- [20. hodina](#20) 
+- [21. hodina](#21) 
+- [22. hodina](#22) 
 - [23. hodina](#23) 
-- [24. hodina](#24) 
+- [24. hodina](#24) &#10004;
 
 ## Modul 1: HTML/CSS
 
 ### <a name="1">1. hodina</a>
 
+- Predstavenie - [matusmarcin.com](http://www.matusmarcin.com)
 - Icebreaker (Ako sa volate, co robite, preco ste tu?) (15min)
 - Prehlad znalosti o webe (5min)
 - [Kniha](html-css-handbook.pdf)
