@@ -3,8 +3,8 @@
 ### Obsah
 #### HTML/CSS
 
-- [1. hodina](#1) **&#8592; tu sme** 
-- [2. hodina](#2) 
+- [1. hodina](#1) &#10004;
+- [2. hodina](#2) **&#8592; tu sme** 
 - [3. hodina](#3) 
 - [4. hodina](#4) 
 - [5. hodina](#5) 
@@ -32,7 +32,7 @@
 - [21. hodina](#21) 
 - [22. hodina](#22) 
 - [23. hodina](#23) 
-- [24. hodina](#24) &#10004;
+- [24. hodina](#24) 
 
 ## Modul 1: HTML/CSS
 
