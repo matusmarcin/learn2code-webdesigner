@@ -4,8 +4,8 @@
 #### HTML/CSS
 
 - [1. hodina](#1) &#10004;
-- [2. hodina](#2) **&#8592; tu sme** 
-- [3. hodina](#3) 
+- [2. hodina](#2) &#10004;
+- [3. hodina](#3) **&#8592; tu sme** 
 - [4. hodina](#4) 
 - [5. hodina](#5) 
 - [6. hodina](#6) 
