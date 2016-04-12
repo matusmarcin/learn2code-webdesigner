@@ -7,9 +7,9 @@
 - [2. hodina](#2) &#10004;
 - [3. hodina](#3) &#10004;
 - [4. hodina](#4) &#10004;
-- [5. hodina](#5) **&#8592; tu sme** 
-- [6. hodina](#6) 
-- [7. hodina](#7) 
+- [5. hodina](#5) &#10004;
+- [6. hodina](#6) &#10004;
+- [7. hodina](#7) **&#8592; tu sme** 
 
 #### Responzívny web dizajn
 
