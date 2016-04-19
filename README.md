@@ -9,11 +9,11 @@
 - [4. hodina](#4) &#10004;
 - [5. hodina](#5) &#10004;
 - [6. hodina](#6) &#10004;
-- [7. hodina](#7) **&#8592; tu sme** 
+- [7. hodina](#7) &#10004;
 
 #### Responzívny web dizajn
 
-- [8. hodina](#8) 
+- [8. hodina](#8) **&#8592; tu sme** 
 - [9. hodina](#9) 
 - [10. hodina](#10) 
 - [11. hodina](#11) 
@@ -259,7 +259,7 @@ Hlavné aspekty RWD:
     * Ak je šírka menšia ako 480px nezobrazovať dva stĺpce (obsah bude iba pod sebou)
     * Ak je šírka menšia ako 768px zmenšiť fotku a nadpis v hlavičke
     * Ak je šírka menšia ako 1024px zobraziť #wrapper na plnú šírku
-    * **[Riešenie na stiahnutie](http://www.matusmarcin.com/learn2code/lekcia7zadanie.zip)**
+    * **[Riešenie na stiahnutie](/8/lekcia7zadanie.zip)**
 
 ### <a name="9">9. hodina</a>
 
