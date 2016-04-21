@@ -13,8 +13,8 @@
 
 #### Responzívny web dizajn
 
-- [8. hodina](#8) **&#8592; tu sme** 
-- [9. hodina](#9) 
+- [8. hodina](#8) &#10004;
+- [9. hodina](#9) **&#8592; tu sme** 
 - [10. hodina](#10) 
 - [11. hodina](#11) 
 
@@ -283,7 +283,7 @@ Užitočné stránky:
 
 Úloha: 
 
-1. [Stiahnite si materiály](http://www.matusmarcin.com/learn2code/lekcia8uloha.zip)
+1. [Stiahnite si materiály](/9/lekcia8uloha.zip)
 2. Dajte obrázky v galérii do 2 stĺpcov (2 na riadok)
 3. Pre väčšie rozlíšenia dajte 4 na riadok
 4. Pre ešte väčšie rozlíšenia dajte 6 na riadok
