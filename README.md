@@ -4,17 +4,17 @@
 #### HTML/CSS
 
 - [1. hodina](#1) &#10004;
-- [2. hodina](#2) **&#8592; tu sme** 
-- [3. hodina](#3) 
-- [4. hodina](#4) 
-- [5. hodina](#5) 
-- [6. hodina](#6) 
-- [7. hodina](#7) 
+- [2. hodina](#2) &#10004;
+- [3. hodina](#3) &#10004;
+- [4. hodina](#4) &#10004;
+- [5. hodina](#5) &#10004;
+- [6. hodina](#6) &#10004;
+- [7. hodina](#7) &#10004;
 
 #### Responzívny web dizajn
 
-- [8. hodina](#8) 
-- [9. hodina](#9) 
+- [8. hodina](#8) &#10004;
+- [9. hodina](#9) **&#8592; tu sme** 
 - [10. hodina](#10) 
 - [11. hodina](#11) 
 
@@ -259,7 +259,7 @@ Hlavné aspekty RWD:
     * Ak je šírka menšia ako 480px nezobrazovať dva stĺpce (obsah bude iba pod sebou)
     * Ak je šírka menšia ako 768px zmenšiť fotku a nadpis v hlavičke
     * Ak je šírka menšia ako 1024px zobraziť #wrapper na plnú šírku
-    * **[Riešenie na stiahnutie](http://www.matusmarcin.com/learn2code/lekcia7zadanie.zip)**
+    * **[Riešenie na stiahnutie](/8/lekcia7zadanie.zip)**
 
 ### <a name="9">9. hodina</a>
 
@@ -283,7 +283,7 @@ Užitočné stránky:
 
 Úloha: 
 
-1. [Stiahnite si materiály](http://www.matusmarcin.com/learn2code/lekcia8uloha.zip)
+1. [Stiahnite si materiály](/9/lekcia8uloha.zip)
 2. Dajte obrázky v galérii do 2 stĺpcov (2 na riadok)
 3. Pre väčšie rozlíšenia dajte 4 na riadok
 4. Pre ešte väčšie rozlíšenia dajte 6 na riadok
