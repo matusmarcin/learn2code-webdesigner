@@ -14,13 +14,13 @@
 #### Responzívny web dizajn
 
 - [8. hodina](#8) &#10004;
-- [9. hodina](#9) **&#8592; tu sme** 
-- [10. hodina](#10) 
-- [11. hodina](#11) 
+- [9. hodina](#9) &#10004;
+- [10. hodina](#10) &#10004;
+- [11. hodina](#11) &#10004;
 
 #### JavaScript a jQuery
 
-- [12. hodina](#12) 
+- [12. hodina](#12) **&#8592; tu sme** 
 - [13. hodina](#13) 
 - [14. hodina](#14) 
 - [15. hodina](#15) 
