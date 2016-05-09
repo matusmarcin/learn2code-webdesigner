@@ -385,7 +385,7 @@ jQuery:
 Úloha na rozohriatie:
 
 1. animácia z ľava do prava
-2. animácia z prava do ľava so zmenou farby
+2. animácia z prava do ľava so zmenou výšky
 
 Rekapitulácia:
 
@@ -405,7 +405,7 @@ Udalosti (eventy):
 * Event Listener
 * Event Handler
 * Event Object
-* event.preventDefault()
+* `event.preventDefault()`
 
 Príklad: 
 
