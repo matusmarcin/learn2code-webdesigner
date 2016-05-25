@@ -10,6 +10,7 @@
 	});
 
 	$(document).on('keyup', function(event) { 
+		console.log(event.which);
     	if(event.which === 27) {
     		overlay.fadeOut('fast'); 
     		window.clearInterval(slideshow);
@@ -25,12 +26,16 @@
 	    		} else {
 	    			var $next = $current.next();
 	    		}
-	    		if($next.length) {
-	    			var href = $next.attr('href'),
-						image = $('<img>', {src: href});
+	    		if($next.length == 0 && event.which === 37) { // sipka dolava na prvom cize chcem posledny
+	    			$next = $('.gallery a:last-child');
 
-					overlay.html(image).show();
-	    		} 
+	    		} else if($next.length == 0) { // sipka doprava na poslednom cize chcem prvy
+					$next = $('.gallery a:first-child');	    			
+	    		}
+	    		var href = $next.attr('href'),
+					image = $('<img>', {src: href});
+
+				overlay.html(image).show();
 	    	}
 	    }
     });
@@ -46,50 +51,54 @@
 	});
 
 	// 2. event listener na klik na #slideshow
-	$('#slideshow').on('click', function(event) {
-		console.log('funguje');
-		// 3. vyberiem prvy obrazok a zobrazim ho
-		// zmenil som $(this) na $(obrazok) kde obrazok je cez CSS selektor vytiahnuty prvy 'a' pod .gallery
-		var obrazok = $('.gallery a:first-child');
-		var href = obrazok.attr('href'), // tu sa to zmenilo z $(this)
-		image = $('<img>', {src: href});
-
-		overlay.html(image).show();
-		// 4. setInterval (ulozte si ho do premennej)
-		// 5. vo vnutri ziskajte dalsi obrazok a zobrazte ho
-		// hint: obrazok.next()
-		// 6. pridat if, ak next uz nie je, zrusit interval a zavriet overlay
-		// hint: obrazok.length
-
-		event.preventDefault();
-	});
-
-	/* **** TOTO JE KOMPLET SLIDESHOW **** */
-
 	// $('#slideshow').on('click', function(event) {
+	// 	console.log('funguje');
+	// 	// 3. vyberiem prvy obrazok a zobrazim ho
+	// 	// zmenil som $(this) na $(obrazok) kde obrazok je cez CSS selektor vytiahnuty prvy 'a' pod .gallery
 	// 	var obrazok = $('.gallery a:first-child');
-	// 	var href = $(obrazok).attr('href'), 
+	// 	var href = obrazok.attr('href'), // tu sa to zmenilo z $(this)
 	// 	image = $('<img>', {src: href});
 
 	// 	overlay.html(image).show();
-
-	// 	obrazok = obrazok.next();
-	// 	slideshow = setInterval(function () {
-	// 		if(obrazok.length == 0) {
-	// 			window.clearInterval(slideshow);
-	// 			overlay.fadeOut('fast');				
-	// 		}
-
-	// 		var href = $(obrazok).attr('href'), 
-	// 			image = $('<img>', {src: href});
-
-	// 		overlay.html(image).show();
-
-	// 		obrazok = obrazok.next();
-	// 	}, 2000);
+	// 	// 4. setInterval (ulozte si ho do premennej)
+	// 	// 5. vo vnutri ziskajte dalsi obrazok a zobrazte ho
+	// 	// hint: obrazok.next()
+	// 	// 6. pridat if, ak next uz nie je, zrusit interval a zavriet overlay
+	// 	// hint: obrazok.length
 
 	// 	event.preventDefault();
 	// });
+
+	/* **** TOTO JE KOMPLET SLIDESHOW **** */
+
+	$('#slideshow').on('click', function(event) {
+		var obrazok = $('.gallery a:first-child');
+		var href = $(obrazok).attr('href'), 
+		image = $('<img>', {src: href});
+
+		overlay.html(image).show();
+
+		obrazok = obrazok.next();
+		slideshow = setInterval(function () {
+			if(obrazok.length == 0) {
+				// ak chcete aby to islo dookola
+				obrazok = $('.gallery a:first-child');
+
+				// ak chcete aby to zastavilo na konci
+				// window.clearInterval(slideshow);
+				// overlay.fadeOut('fast');				
+			}
+
+			var href = $(obrazok).attr('href'), 
+				image = $('<img>', {src: href});
+
+			overlay.html(image).show();
+
+			obrazok = obrazok.next();
+		}, 2000);
+
+		event.preventDefault();
+	});
 
 	/* *** KONIEC SLIDESHOW *** */
 
