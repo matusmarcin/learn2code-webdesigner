@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Domcek</title>
+	<style>
+		.domcek {
+			position: relative;
+			/*background: blue;*/
+			height: 400px;
+			width: 400px;
+			border: 1px solid #ccc;
+			margin: 100px auto;
+			overflow: hidden;
+		}
+		.ahoj, .cau {
+			position: absolute;
+			width: 100%;
+			height: 40px;
+			top: 200px;
+			text-align: center;
+			z-index: 1;
+			font-size: 2em;
+			color: #aaa;
+			transition: opacity 2500ms;
+		}
+		.domcek:hover .ahoj {
+			opacity: 0;
+		}
+		.cau {
+			z-index: 2;
+			top: 0;
+			background: white;
+			height: 100px;
+			padding-top: 200px;
+			opacity: 0;
+			transition: opacity 500ms 4s ease-in-out;
+		}
+		.domcek:hover .cau {
+			opacity: 1;
+		}
+		.stena {
+			position: absolute;
+			z-index: 6;
+			bottom: 0;
+			left: -200px;
+			width: 200px;
+			height: 0;
+			background: yellow;
+			border: 1px solid black;
+			transition: height 1000ms 1s ease-in-out, left 500ms ease-in-out;
+		}
+		.domcek:hover .stena {
+			height: 200px;
+			left: 100px;
+		}
+		.strecha {
+			position: absolute;
+			z-index: 5;
+			border: 1px solid black;
+			bottom: 0;
+			left: 100px;
+			height: 0;
+			width: 141px;
+			background: red;
+			opacity: 0;
+			transform: translate3d(30px, -130px, 0) rotate(45deg);
+			transition: height 1000ms 2s ease-in-out, opacity 50ms 2s;
+		}
+		.domcek:hover .strecha {
+			opacity: 1;
+			height: 141px;
+		}
+	</style>
+</head>
+<body>
+	<div class="domcek">
+		<div class="ahoj">Poď sem.</div>
+		<div class="cau">Ahoj!</div>
+		<div class="strecha"></div>
+		<div class="stena"></div>
+	</div>
+</body>
+</html>
