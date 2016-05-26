@@ -555,6 +555,7 @@ Pokračovanie:
 * [CSS3 animations](http://css-tricks.com/snippets/css/keyframe-animation-syntax/)
 * [CSS3 transitions](http://css3.bradshawenterprises.com/transitions/)
 * [CSS3 transforms](http://desandro.github.io/3dtransforms/)
+* [Ceaser: CSS Easing Animation Tool](https://matthewlein.com/ceaser/)
 
 **AJAX**
 
