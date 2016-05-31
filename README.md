@@ -565,6 +565,11 @@ Pokračovanie:
 
 **Úloha:**
 
+* Nainštalujte si [server](http://www.wampserver.com/en/).
+* Umiestnite na správne miesto index.html a choďte na [http://localhost](http://localhost) alebo [http://127.0.0.1](http://127.0.0.1).
+
+**Úloha:**
+
 (viac-menej to, čo na s. 47-48 v knihe) 
 
 Predpríprava (ak nemáte takto [stránku](http://www.matusmarcin.com/learn2code/elvis.zip)):
@@ -577,7 +582,7 @@ Predpríprava (ak nemáte takto [stránku](http://www.matusmarcin.com/learn2code
 Teraz by ste mali mať stránku, ktorá pozostáva zo štyroch podstránok. Ako klikáte v menu, načítava sa vám vždy patričná nová stránka.
 
 * Nahrajte si to na svoje FTP.
-* Alebo si nainštalujte [server](http://www.wampserver.com/en/).
+* Alebo spustite pod lokálnym servrom (viď úloha vyššie).
 
 Samotná úloha:
 
@@ -585,9 +590,11 @@ Upravíme našu stránku, aby sa obsah načítal cez AJAX.
  
 1. Event listener na menu.
 2. Metóda AJAX [jQuery.load()](http://api.jquery.com/load/)
-4. **Fix pre Same-Origin-Policy:** Stiahnite si súbor [.htaccess](http://www.matusmarcin.com/learn2code/_htaccess) a nahrajte ho na svoje FTP.
-3. Nezabudnite sa odkazovať na súbory na svojom serveri (FTP)
 4. Skúsiť to cez [_$.ajax_ a _success_](http://api.jquery.com/jQuery.ajax/)
+
+Môžno sa bude hodiť:
+
+* **Fix pre Same-Origin-Policy:** Stiahnite si súbor [.htaccess](http://www.matusmarcin.com/learn2code/_htaccess) a nahrajte ho na svoje FTP.
 
 AJAX a <abbr title="JavaScript Object Notation">JSON</abbr>:
 
