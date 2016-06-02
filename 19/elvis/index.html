@@ -66,16 +66,14 @@ O zivote Elvisovom.
 		// menej citatelna verzia bez potreby premennej 'href'
 		// content.html("Načítavam...").load($(this).attr('href') + ' .content');
 
+		// tu sme vyriesili aj zdvojeny div .content
 		// $.ajax({
 		// 	url: href, 
 		// 	type: 'GET',
 		// 	dataType: 'html',
 		// 	success: function(data) {
-		// 		var newContent = $('<div/>').html(data).find('.content').hide();
-		// 		content.html(newContent);
-		// 		newContent.fadeIn('fast');
-				
-		// 		// content.html($('<div/>').html(data).find('.content').hide()).find('.content').fadeIn('fast');
+		// 		newContent = $('<div/>').html(data).find('.content').html();
+		// 		content.hide().html(newContent).fadeIn('fast');
 		// 	}
 		// });
 
