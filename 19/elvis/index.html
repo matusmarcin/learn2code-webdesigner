@@ -32,12 +32,17 @@
 	<li><a href="legacy.html">Legacy</a></li>
 </ul>
 
+<div id="life" class="content">
+<h2>Zivot</h2>
+O zivote Elvisovom.
+</div>
+
+
+<!-- 
 <button id="fb">Facebook</button>
 
-<div id="life" class="content">
-</div>
 <div class="content2">
-</div>
+</div> -->
 
 <!-- <a href="#" id="hore">&uarr; hore</a> -->
 
@@ -47,24 +52,32 @@
 	var content = $('.content');
 
 	$('.menu a').on('click', function(event) {
-		var a = $(this),
-			href = "http://www.matusmarcin.com/learn2code/elvis/" + a.attr('href');
+		// u vas http://localhost/nazov-priecinku/ - bacha - aj s lomitkom na konci
+		// var href = "http://learn2code.local/19/elvis/" + $(this).attr('href');
+		// ale bavi aj jednoduchsia verzia: 
+		var href = $(this).attr('href');
 
 		// TOTO JE AJAX:
 		// do divu .content natiahneme (load) URL adresu (napr. http://localhost/sex.html)
 		// parameter funkcie je potom toto: 'sex.html .content'
 		// content.load(href + ' .content');
-		content.html("Načítavam...");
-		$.ajax({
-			url: href, 
-			type: 'GET',
-			dataType: 'html',
-			success: function(data) {
-				var newContent = $(data).find('.content').hide();
-				content.html(newContent);
-				newContent.fadeIn('fast');
-			}
-		});
+		content.html("Načítavam...").load(href + ' .content');
+		
+		// menej citatelna verzia bez potreby premennej 'href'
+		// content.html("Načítavam...").load($(this).attr('href') + ' .content');
+
+		// $.ajax({
+		// 	url: href, 
+		// 	type: 'GET',
+		// 	dataType: 'html',
+		// 	success: function(data) {
+		// 		var newContent = $('<div/>').html(data).find('.content').hide();
+		// 		content.html(newContent);
+		// 		newContent.fadeIn('fast');
+				
+		// 		// content.html($('<div/>').html(data).find('.content').hide()).find('.content').fadeIn('fast');
+		// 	}
+		// });
 
 		event.preventDefault();
 	});
