@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Elvis Presley</title>
-	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../../10/bootstrap/css/bootstrap.min.css" type="text/css" media="screen" />
+	
 	<style>
 	 #hore {
 	 	font-size: 2em;
@@ -39,28 +40,6 @@
 <p>Reinforcing Presley's image as a sex symbol were the reports of his dalliances with various Hollywood stars and starlets, from Natalie Wood in the 1950s to Connie Stevens and Ann-Margret in the 1960s to Candice Bergen and Cybill Shepherd in the 1970s. June Juanico of Memphis, one of Presley's early girlfriends, later blamed Parker for encouraging him to choose his dating partners with publicity in mind.[203] Presley never grew comfortable with the Hollywood scene, and most of these relationships were insubstantial.</p>
 </div>
 
-<a href="#" id="hore">&uarr; hore</a>
-
-<script src="../14/jquery-1.11.1.js"></script>
-<script>
-	var menu = $('.menu'),
-		menuLinks = menu.find('a');
-
-	menuLinks.on('click', function(event) {
-		// podla hashu vyberieme element, na ktory chceme scrollovat
-		var el = $(this.hash);
-
-		// animujeme hodnotu scrollTop k vrchnemu okraju nasho elementu
-		$('html,body').animate({scrollTop: el.offset().top});
-
-		event.preventDefault();
-	});
-
-	$('#hore').on('click', function(event) {
-		$('html,body').animate({scrollTop: 0});
-		event.preventDefault();
-	});
-</script>
 
 </body>
 </html>
