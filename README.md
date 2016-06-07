@@ -620,7 +620,10 @@ Zadanie:
 
 Úloha:
 
-* Parallax scrollovanie, [ehm](http://www.matusmarcin.com/learn2code/paralax.zip)
+**Parallax scrollovanie**:
+
+* Zdroj: [HTML + CSS + obrázok na stiahnutie](http://www.matusmarcin.com/learn2code/parallax-bez-js.zip)
+* [Zdroj riešenie](http://www.matusmarcin.com/learn2code/paralax.zip)
 
 Budeme váľať šunky.
 
