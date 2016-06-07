@@ -611,10 +611,6 @@ Dosť bolo AJAXu. Či?
 
 * pár príkladov (s. 52, [HTML](http://www.matusmarcin.com/learn2code/jqueryui.html))
 
-Úloha:
-
-* Parallax scrollovanie, [ehm](http://www.matusmarcin.com/learn2code/paralax.zip)
-
 Zadanie:
 
 * Ako sa majú vaše stránky?
@@ -622,7 +618,9 @@ Zadanie:
 
 ### <a name="21">21. hodina</a>
 
-Použijeme všetko, čo sme sa naučili, na vytvorenie vlastného jQuery pluginu a jednoduchého parallax efektu.
+Úloha:
+
+* Parallax scrollovanie, [ehm](http://www.matusmarcin.com/learn2code/paralax.zip)
 
 Budeme váľať šunky.
 
