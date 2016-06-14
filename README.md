@@ -651,7 +651,7 @@ Vaše projekty budú hodnotené podľa:
 
 Vlastná práca.
 
-Bonus: PHP Mailer ([HTML formulár](mailform.txt), [PHP súbory](phpmailer.zip))
+Bonus: PHP Mailer ([HTML formulár](mailform.html), [PHP súbory](phpmailer.zip))
 
 ### <a name="24">24. hodina</a>
 
